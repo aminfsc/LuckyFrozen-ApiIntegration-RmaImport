@@ -1,0 +1,209 @@
+﻿Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation...
+Service WMSImportation has been successfully installed.
+Creating EventLog source WMSImportation in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation.
+Service WMSImportation is being removed from the system...
+Service WMSImportation was successfully removed from the system.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation_V1...
+Service WMSImportation_V1 has been successfully installed.
+Creating EventLog source WMSImportation_V1 in log Application...
+Committing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation_V1...
+Creating EventLog source WMSImportation_V1 in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation_V1.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation_V1...
+Creating EventLog source WMSImportation_V1 in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation_V1.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation_V1...
+Creating EventLog source WMSImportation_V1 in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation_V1.
+Installing assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Installing service WMSImportation_V1...
+Creating EventLog source WMSImportation_V1 in log Application...
+Rolling back assembly 'C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.InstallLog
+   assemblypath = C:\Users\user3\Documents\WMS Integration\WMSImportation\WMSImportation\bin\Release\WMSImportation.exe
+Restoring event log to previous state for source WMSImportation_V1.

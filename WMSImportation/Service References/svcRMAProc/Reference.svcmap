@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65479836-441a-4a64-b69e-7a2b8debb6ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://192.168.0.4/EpicorPilot101/Erp/BO/RMAProc.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RMAProc.xsd" MetadataType="Schema" ID="8fa8d471-04de-42ef-af77-d4003b263e56" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd6" />
+    <MetadataFile FileName="RMAProc1.xsd" MetadataType="Schema" ID="bd025181-c319-4220-9c6b-05708151cf71" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd0" />
+    <MetadataFile FileName="RMAProc.disco" MetadataType="Disco" ID="5c7d5f15-bdec-4c80-8d00-7cdde870ab8f" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?disco" />
+    <MetadataFile FileName="RMAProcSvcFacade.wsdl" MetadataType="Wsdl" ID="f252b2dd-8dae-4ad3-984e-77f8c49212f1" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?wsdl" />
+    <MetadataFile FileName="RMAProc2.xsd" MetadataType="Schema" ID="e2a51e5a-9c03-43b6-ac70-6ea2831c2e7a" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd4" />
+    <MetadataFile FileName="RMAProc3.xsd" MetadataType="Schema" ID="32e3958a-e846-45f0-92b5-bde38e590237" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd1" />
+    <MetadataFile FileName="RMAProc.wsdl" MetadataType="Wsdl" ID="5e32de84-790f-426d-a74d-512d0e28ee2c" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="RMAProc4.xsd" MetadataType="Schema" ID="09f7342a-771a-4bce-9f03-c514930bf3b5" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd2" />
+    <MetadataFile FileName="RMAProc5.xsd" MetadataType="Schema" ID="938d88fb-baa5-482d-b60a-ea02e2ee8938" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd5" />
+    <MetadataFile FileName="RMAProc6.xsd" MetadataType="Schema" ID="ef9573b3-7cb4-4b49-a890-fe35783eae2e" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd7" />
+    <MetadataFile FileName="RMAProc7.xsd" MetadataType="Schema" ID="0e56f75b-0177-46f0-952f-42b427055733" SourceId="1" SourceUrl="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

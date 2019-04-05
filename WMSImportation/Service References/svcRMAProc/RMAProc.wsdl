@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="Erp:BO:RMAProc" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="Erp:BO:RMAProc" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="Erp:BO:RMAProc/Imports">
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd0" namespace="Erp:BO:RMAProc" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/Ice.Common" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Erp.Tablesets" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Ice" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Epicor.Data" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd5" namespace="http://epicor.com/UserDefinedColumns" />
+      <xsd:import schemaLocation="http://luckye101db.luckyfoods.com.my/EpicorPilot101/Erp/BO/RMAProc.svc?xsd=xsd7" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="RMAProcSvcContract_ChangeContact_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeContact" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeContact_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeContactResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeContact_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q1:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeContactRMADtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeContactRMADtl" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeContactRMADtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeContactRMADtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeContactRMADtl_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q2:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeCustomer_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeCustomer" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeCustomer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeCustomer_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q3="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q3:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderLine_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderLine" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderLine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderLine_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q4:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderNumber" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderNumber_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q5="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q5:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderRelNum_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderRelNum" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderRelNum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeOrderRelNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeOrderRelNum_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q6:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangePartNum_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePartNum" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangePartNum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePartNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangePartNum_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q7="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q7:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeReceivedQty_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeReceivedQty" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeReceivedQty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeReceivedQtyResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeReceivedQty_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q8:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlInvoiceLine_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMADtlInvoiceLine" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlInvoiceLine_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMADtlInvoiceLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlInvoiceLine_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q9="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q9:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlLegalNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMADtlLegalNumber" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlLegalNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMADtlLegalNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMADtlLegalNumber_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q10="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q10:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMAHeadLegalNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMAHeadLegalNumber" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMAHeadLegalNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeRMAHeadLegalNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeRMAHeadLegalNumber_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q11="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q11:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipTo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeShipTo" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipTo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeShipToResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipTo_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q12="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q12:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipToCustID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeShipToCustID" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipToCustID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeShipToCustIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeShipToCustID_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q13="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q13:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeWarehouse_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeWarehouse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeWarehouse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangeWarehouseResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ChangeWarehouse_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q14="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q14:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckSerialNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckSerialNumbers" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckSerialNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckSerialNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckSerialNumbers_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q15="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q15:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CreditMemoExistsForRMA_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreditMemoExistsForRMA" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CreditMemoExistsForRMA_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreditMemoExistsForRMAResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CreditMemoExistsForRMA_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q16="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q16:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetDateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDateUser" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetDateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetDateUser_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q17="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q17:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRMAUseRefCosts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRMAUseRefCosts" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRMAUseRefCosts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRMAUseRefCostsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRMAUseRefCosts_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q18="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q18:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectedSerialNumbers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedSerialNumbers" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectedSerialNumbers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedSerialNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectedSerialNumbers_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q19="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q19:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectSerialNumbersParams_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectSerialNumbersParams" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectSerialNumbersParams_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectSerialNumbersParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetSelectSerialNumbersParams_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q20="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q20:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_PreUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:PreUpdate" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_PreUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PreUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_PreUpdate_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q21="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q21:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_RMACreditAdd_InputMessage">
+    <wsdl:part name="parameters" element="tns:RMACreditAdd" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_RMACreditAdd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RMACreditAddResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_RMACreditAdd_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q22="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q22:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckRMANum_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckRMANum" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckRMANum_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckRMANumResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_CheckRMANum_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q23="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q23:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ValidateSN_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateSN" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ValidateSN_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateSNResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_ValidateSN_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q24="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q24:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetAvailTranDocTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailTranDocTypes" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetAvailTranDocTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailTranDocTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetAvailTranDocTypes_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q25="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q25:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHead_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMAHead" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHead_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMAHeadResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHead_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q26="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q26:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHeadAttch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMAHeadAttch" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHeadAttch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMAHeadAttchResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMAHeadAttch_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q27="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q27:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMADtl" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMADtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtl_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q28="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q28:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtlAttch_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMADtlAttch" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtlAttch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMADtlAttchResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMADtlAttch_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q29="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q29:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewInvcDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewInvcDtl" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewInvcDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewInvcDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewInvcDtl_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q30="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q30:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMARcpt_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMARcpt" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMARcpt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewRMARcptResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetNewRMARcpt_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q31="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q31:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_DeleteByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteByID" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_DeleteByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_DeleteByID_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q32="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q32:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetByID" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetByID_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q33="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q33:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetList" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetList_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q34="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q34:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRows_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRows" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRows_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetRows_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q35="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q35:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBySysRowID" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBySysRowIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowID_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q36="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q36:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowIDs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBySysRowIDs" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowIDs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBySysRowIDsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_GetBySysRowIDs_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q37="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q37:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_Update_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q38="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q38:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_UpdateExt_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateExt" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_UpdateExt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateExtResponse" />
+  </wsdl:message>
+  <wsdl:message name="RMAProcSvcContract_UpdateExt_EpicorFaultDetailFault_FaultMessage">
+    <wsdl:part xmlns:q39="http://schemas.datacontract.org/2004/07/Ice.Common" name="detail" element="q39:EpicorFaultDetail" />
+  </wsdl:message>
+  <wsdl:portType name="RMAProcSvcContract">
+    <wsdl:operation name="ChangeContact">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContact" message="tns:RMAProcSvcContract_ChangeContact_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContactResponse" message="tns:RMAProcSvcContract_ChangeContact_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContactEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeContact_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeContactRMADtl">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContactRMADtl" message="tns:RMAProcSvcContract_ChangeContactRMADtl_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContactRMADtlResponse" message="tns:RMAProcSvcContract_ChangeContactRMADtl_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeContactRMADtlEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeContactRMADtl_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeCustomer">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeCustomer" message="tns:RMAProcSvcContract_ChangeCustomer_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeCustomerResponse" message="tns:RMAProcSvcContract_ChangeCustomer_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeCustomerEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeCustomer_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeOrderLine">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderLine" message="tns:RMAProcSvcContract_ChangeOrderLine_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderLineResponse" message="tns:RMAProcSvcContract_ChangeOrderLine_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderLineEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeOrderLine_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeOrderNumber">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderNumber" message="tns:RMAProcSvcContract_ChangeOrderNumber_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderNumberResponse" message="tns:RMAProcSvcContract_ChangeOrderNumber_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderNumberEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeOrderNumber_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeOrderRelNum">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderRelNum" message="tns:RMAProcSvcContract_ChangeOrderRelNum_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderRelNumResponse" message="tns:RMAProcSvcContract_ChangeOrderRelNum_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeOrderRelNumEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeOrderRelNum_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePartNum">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangePartNum" message="tns:RMAProcSvcContract_ChangePartNum_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangePartNumResponse" message="tns:RMAProcSvcContract_ChangePartNum_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangePartNumEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangePartNum_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeReceivedQty">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeReceivedQty" message="tns:RMAProcSvcContract_ChangeReceivedQty_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeReceivedQtyResponse" message="tns:RMAProcSvcContract_ChangeReceivedQty_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeReceivedQtyEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeReceivedQty_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeRMADtlInvoiceLine">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlInvoiceLine" message="tns:RMAProcSvcContract_ChangeRMADtlInvoiceLine_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlInvoiceLineResponse" message="tns:RMAProcSvcContract_ChangeRMADtlInvoiceLine_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlInvoiceLineEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeRMADtlInvoiceLine_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeRMADtlLegalNumber">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlLegalNumber" message="tns:RMAProcSvcContract_ChangeRMADtlLegalNumber_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlLegalNumberResponse" message="tns:RMAProcSvcContract_ChangeRMADtlLegalNumber_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMADtlLegalNumberEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeRMADtlLegalNumber_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeRMAHeadLegalNumber">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMAHeadLegalNumber" message="tns:RMAProcSvcContract_ChangeRMAHeadLegalNumber_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMAHeadLegalNumberResponse" message="tns:RMAProcSvcContract_ChangeRMAHeadLegalNumber_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeRMAHeadLegalNumberEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeRMAHeadLegalNumber_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeShipTo">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipTo" message="tns:RMAProcSvcContract_ChangeShipTo_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipToResponse" message="tns:RMAProcSvcContract_ChangeShipTo_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipToEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeShipTo_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeShipToCustID">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipToCustID" message="tns:RMAProcSvcContract_ChangeShipToCustID_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipToCustIDResponse" message="tns:RMAProcSvcContract_ChangeShipToCustID_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeShipToCustIDEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeShipToCustID_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangeWarehouse">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeWarehouse" message="tns:RMAProcSvcContract_ChangeWarehouse_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeWarehouseResponse" message="tns:RMAProcSvcContract_ChangeWarehouse_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ChangeWarehouseEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ChangeWarehouse_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckSerialNumbers">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckSerialNumbers" message="tns:RMAProcSvcContract_CheckSerialNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckSerialNumbersResponse" message="tns:RMAProcSvcContract_CheckSerialNumbers_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckSerialNumbersEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_CheckSerialNumbers_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreditMemoExistsForRMA">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CreditMemoExistsForRMA" message="tns:RMAProcSvcContract_CreditMemoExistsForRMA_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CreditMemoExistsForRMAResponse" message="tns:RMAProcSvcContract_CreditMemoExistsForRMA_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CreditMemoExistsForRMAEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_CreditMemoExistsForRMA_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDateUser">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetDateUser" message="tns:RMAProcSvcContract_GetDateUser_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetDateUserResponse" message="tns:RMAProcSvcContract_GetDateUser_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetDateUserEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetDateUser_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRMAUseRefCosts">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRMAUseRefCosts" message="tns:RMAProcSvcContract_GetRMAUseRefCosts_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRMAUseRefCostsResponse" message="tns:RMAProcSvcContract_GetRMAUseRefCosts_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRMAUseRefCostsEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetRMAUseRefCosts_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectedSerialNumbers">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectedSerialNumbers" message="tns:RMAProcSvcContract_GetSelectedSerialNumbers_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectedSerialNumbersResponse" message="tns:RMAProcSvcContract_GetSelectedSerialNumbers_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectedSerialNumbersEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetSelectedSerialNumbers_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectSerialNumbersParams">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectSerialNumbersParams" message="tns:RMAProcSvcContract_GetSelectSerialNumbersParams_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectSerialNumbersParamsResponse" message="tns:RMAProcSvcContract_GetSelectSerialNumbersParams_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetSelectSerialNumbersParamsEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetSelectSerialNumbersParams_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PreUpdate">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/PreUpdate" message="tns:RMAProcSvcContract_PreUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/PreUpdateResponse" message="tns:RMAProcSvcContract_PreUpdate_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/PreUpdateEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_PreUpdate_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RMACreditAdd">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/RMACreditAdd" message="tns:RMAProcSvcContract_RMACreditAdd_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/RMACreditAddResponse" message="tns:RMAProcSvcContract_RMACreditAdd_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/RMACreditAddEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_RMACreditAdd_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckRMANum">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckRMANum" message="tns:RMAProcSvcContract_CheckRMANum_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckRMANumResponse" message="tns:RMAProcSvcContract_CheckRMANum_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/CheckRMANumEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_CheckRMANum_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateSN">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ValidateSN" message="tns:RMAProcSvcContract_ValidateSN_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ValidateSNResponse" message="tns:RMAProcSvcContract_ValidateSN_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/ValidateSNEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_ValidateSN_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailTranDocTypes">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetAvailTranDocTypes" message="tns:RMAProcSvcContract_GetAvailTranDocTypes_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetAvailTranDocTypesResponse" message="tns:RMAProcSvcContract_GetAvailTranDocTypes_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetAvailTranDocTypesEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetAvailTranDocTypes_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRMAHead">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHead" message="tns:RMAProcSvcContract_GetNewRMAHead_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHeadResponse" message="tns:RMAProcSvcContract_GetNewRMAHead_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHeadEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewRMAHead_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRMAHeadAttch">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHeadAttch" message="tns:RMAProcSvcContract_GetNewRMAHeadAttch_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHeadAttchResponse" message="tns:RMAProcSvcContract_GetNewRMAHeadAttch_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMAHeadAttchEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewRMAHeadAttch_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRMADtl">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtl" message="tns:RMAProcSvcContract_GetNewRMADtl_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtlResponse" message="tns:RMAProcSvcContract_GetNewRMADtl_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtlEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewRMADtl_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRMADtlAttch">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtlAttch" message="tns:RMAProcSvcContract_GetNewRMADtlAttch_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtlAttchResponse" message="tns:RMAProcSvcContract_GetNewRMADtlAttch_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMADtlAttchEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewRMADtlAttch_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewInvcDtl">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewInvcDtl" message="tns:RMAProcSvcContract_GetNewInvcDtl_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewInvcDtlResponse" message="tns:RMAProcSvcContract_GetNewInvcDtl_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewInvcDtlEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewInvcDtl_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewRMARcpt">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMARcpt" message="tns:RMAProcSvcContract_GetNewRMARcpt_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMARcptResponse" message="tns:RMAProcSvcContract_GetNewRMARcpt_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetNewRMARcptEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetNewRMARcpt_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteByID">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/DeleteByID" message="tns:RMAProcSvcContract_DeleteByID_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/DeleteByIDResponse" message="tns:RMAProcSvcContract_DeleteByID_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/DeleteByIDEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_DeleteByID_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetByID">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetByID" message="tns:RMAProcSvcContract_GetByID_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetByIDResponse" message="tns:RMAProcSvcContract_GetByID_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetByIDEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetByID_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetList">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetList" message="tns:RMAProcSvcContract_GetList_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetListResponse" message="tns:RMAProcSvcContract_GetList_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetListEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetList_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRows">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRows" message="tns:RMAProcSvcContract_GetRows_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRowsResponse" message="tns:RMAProcSvcContract_GetRows_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetRowsEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetRows_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBySysRowID">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowID" message="tns:RMAProcSvcContract_GetBySysRowID_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowIDResponse" message="tns:RMAProcSvcContract_GetBySysRowID_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowIDEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetBySysRowID_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBySysRowIDs">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowIDs" message="tns:RMAProcSvcContract_GetBySysRowIDs_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowIDsResponse" message="tns:RMAProcSvcContract_GetBySysRowIDs_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/GetBySysRowIDsEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_GetBySysRowIDs_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/Update" message="tns:RMAProcSvcContract_Update_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/UpdateResponse" message="tns:RMAProcSvcContract_Update_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/UpdateEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_Update_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateExt">
+      <wsdl:input wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/UpdateExt" message="tns:RMAProcSvcContract_UpdateExt_InputMessage" />
+      <wsdl:output wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/UpdateExtResponse" message="tns:RMAProcSvcContract_UpdateExt_OutputMessage" />
+      <wsdl:fault wsaw:Action="Erp:BO:RMAProc/RMAProcSvcContract/UpdateExtEpicorFaultDetailFault" name="EpicorFaultDetailFault" message="tns:RMAProcSvcContract_UpdateExt_EpicorFaultDetailFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
